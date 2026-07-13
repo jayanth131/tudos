@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://tudos-five.vercel.app//api',
 });
 
 // Automatically inject the JWT token into headers if it exists in localStorage
